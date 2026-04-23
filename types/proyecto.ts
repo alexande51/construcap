@@ -13,7 +13,7 @@ export type Proyecto = {
   titulo: string;
   categoria: string;
   descripcion: string;
-  //portada: string;
+  portada?: string;  // 👈 quita el comentario y agrega el ? para que sea opcional
   tecnologias: string[];
   fecha: string;
   destacado?: boolean;
