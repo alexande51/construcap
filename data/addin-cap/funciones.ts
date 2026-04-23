@@ -68,7 +68,7 @@ export const especialidades: Especialidad[] = [
         { nombre: 'Tabla de zapatas',  desc: 'Crea una tabla de planificación de cimentaciones (zapatas) con sus características y agrupación por tipo.' },
       ]},
       { nombre: 'Información', icono: 'ℹ️', funciones: [
-        { nombre: 'Localizador de ejes',    desc: 'Asigna automáticamente el eje a columnas, vigas, muros o zapatas según su posición geográfica, escribiendo el resultado en el parámetro compartido "Ejes".' },
+        { nombre: 'Localizador de ejes',    desc: 'Asigna automáticamente el eje a columnas, vigas, muros o zapatas según su posición a la que corresponde , escribiendo el resultado en el parámetro compartido "Ejes".' },
         { nombre: 'Generación de rejillas', desc: 'Crea líneas de rejilla automáticamente basándose en columnas perimétricas, con offset exterior configurable y numeración/letras por dirección.' },
         { nombre: 'Cuadros estructurales',  desc: 'Genera cuadros de columnas, vigas o zapatas en vistas de detalle, agrupando tipos y mostrando dimensiones, refuerzo y cantidad de cada uno.' },
         { nombre: 'Creación de vistas',     desc: 'Crea vistas de detalle 2D automáticamente para cada tipo único de columna, viga o zapata, con plantilla de vista y filtro por nivel opcionales.' },

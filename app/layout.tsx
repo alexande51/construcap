@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'ConstruCAP',
-  description: 'Plataforma para ingenieros civiles y constructores',
+  title: 'ConstruCAP — Automatiza tu flujo en Revit con CAP Tools',
+  description: 'CAP Tools es el addin para Autodesk Revit que automatiza el modelado, cálculo y documentación BIM para estructuras, arquitectura, sanitarias y eléctricas. Compatible con Revit 2025 y 2026.',
 }
 
 export default function RootLayout({
